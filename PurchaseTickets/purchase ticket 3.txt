@@ -1,0 +1,25 @@
+<Window x:Class="PurchaseTickets.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PurchaseTickets"
+        mc:Ignorable="d"
+        Title="PurchaseTicketHome" Height="450" Width="300">
+    <Grid>
+        <TextBlock HorizontalAlignment="Left" Height="39" Margin="82,10,0,0" Text=" InstaRide" FontSize="30" TextWrapping="Wrap" VerticalAlignment="Top" Width="154"/>
+        <Rectangle HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="59" Margin="-1,1,0,0"/>
+        <Rectangle HorizontalAlignment="Left" Height="50" Stroke="Black" VerticalAlignment="Top" Width="59" Margin="241,1,0,0"/>
+        <Rectangle HorizontalAlignment="Center" Height="50" Stroke="Black" VerticalAlignment="Top" Width="183" Margin="0,1,0,0"/>
+        <TextBlock HorizontalAlignment="Center" Height="22" Margin="0,57,0,0" Text=" Payment Options" FontSize="16" TextWrapping="Wrap" VerticalAlignment="Top" Width="126"/>
+        <Image HorizontalAlignment="Left" Height="50" Margin="0,1,0,0" VerticalAlignment="Top" Width="59" Source="/3329671.png"/>
+        <Image HorizontalAlignment="Left" Height="41" Margin="251,4,0,0" VerticalAlignment="Top" Width="55" Source="/notification.png"/>
+        <Rectangle HorizontalAlignment="Center" Height="39" Margin="0,51,0,0" Stroke="Black" VerticalAlignment="Top" Width="300"/>
+        <Image HorizontalAlignment="Left" Height="26" Margin="17,56,0,0" VerticalAlignment="Top" Width="35" Source="/left-arrow.png"/>
+        <Button Content="Google Pay" HorizontalAlignment="Center" Height="33" Margin="0,169,0,0" VerticalAlignment="Top" Width="280" FontSize="16" FontWeight="Bold"/>
+        <Button Content="Credit Card" HorizontalAlignment="Center" Height="33" VerticalAlignment="Top" Width="280" FontSize="16" FontWeight="Bold" Margin="0,259,0,0"/>
+        <Button Content="Apple Pay" HorizontalAlignment="Center" Height="33" VerticalAlignment="Top" Width="280" FontSize="16" FontWeight="Bold" Margin="0,213,0,0"/>
+        <Button Content="Use Account Funds: $6.75" HorizontalAlignment="Center" Height="33" VerticalAlignment="Top" Width="280" FontSize="16" FontWeight="Bold" Margin="0,307,0,0"/>
+
+    </Grid>
+</Window>
